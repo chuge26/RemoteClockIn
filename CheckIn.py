@@ -723,11 +723,11 @@ class Presetting:
         print("主程序运行中...")
 
         DB_CONFIG = {
-            'host': '47.94.120.40',
-            'port': 3306,
-            'user': 'check_in',
-            'password': 'Zhzf@1234',
-            'database': 'mysql',
+            'host': 'YourHostIP',
+            'port': Port,
+            'user': 'user_name',
+            'password': 'YourPassword',
+            'database': 'database_name',
             'charset': 'utf8mb4'
         }
         TABLE_NAME = 'user_activation'
